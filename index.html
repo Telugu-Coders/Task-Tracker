@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/895fff4954.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="bg-container">
+        <div class="quiz-card">
+            <h4>Question <span class="question-number">1</span> of <span class="question-last-number">3</span> </h4>
+            <hr>
+            <h2 class="question">How can you make a numbered list?</h2>
+            <input type="button" class="options" value="<ol>" />
+            <br>
+            <input type="button" class="options" value="<ul>" />
+            <br>
+            <input type="button" class="options" value="<dl>" />
+            <br>
+            <input type="button" class="options" value="<list>" />
+            <br>
+            <button id="next-button" class="next-button" onclick="nextQuestion()">Next</button>
+            <button id="complete-button" class="next-button display-button">Completed</button>
+            <div class="answers-container">
+                <button class="circle"></button>
+                <button class="circle"></button>
+                <button class="circle"></button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
